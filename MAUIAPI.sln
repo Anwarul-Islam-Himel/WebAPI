@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIAPI", "MAUIAPI\MAUIAPI.csproj", "{7C8F510D-DD33-40E4-BD17-19FF3E94CB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{8FDDA930-43A8-4F4D-90D2-12E267DB0886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4E9CD072-DBF3-4D02-8730-80A1A875EEDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8F510D-DD33-40E4-BD17-19FF3E94CB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8F510D-DD33-40E4-BD17-19FF3E94CB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8F510D-DD33-40E4-BD17-19FF3E94CB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8F510D-DD33-40E4-BD17-19FF3E94CB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDDA930-43A8-4F4D-90D2-12E267DB0886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDDA930-43A8-4F4D-90D2-12E267DB0886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDDA930-43A8-4F4D-90D2-12E267DB0886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDDA930-43A8-4F4D-90D2-12E267DB0886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9CD072-DBF3-4D02-8730-80A1A875EEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9CD072-DBF3-4D02-8730-80A1A875EEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9CD072-DBF3-4D02-8730-80A1A875EEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9CD072-DBF3-4D02-8730-80A1A875EEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B603CAF-9421-46D4-BAA3-79CC58F1B2C0}
+	EndGlobalSection
+EndGlobal

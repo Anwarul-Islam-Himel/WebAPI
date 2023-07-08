@@ -1,0 +1,11 @@
+.vs/
+Domain/bin/
+Domain/obj/
+MAUIAPI/bin/
+MAUIAPI/obj/
+Service/obj/
+Service/bin/
+MAUIAPI/MAUIAPI.csproj.user
+MAUIAPI/.config/dotnet-tools.json
+MAUIAPI/Properties/PublishProfiles/FolderProfile.pubxml
+MAUIAPI/Properties/PublishProfiles/FolderProfile.pubxml.user
