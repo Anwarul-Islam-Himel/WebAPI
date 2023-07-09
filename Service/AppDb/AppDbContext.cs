@@ -11,10 +11,13 @@ namespace Service.AppDb
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.ApplyConfiguration(new ItemConfiguration());
+            builder.ApplyConfiguration(new IncomeConfiguration());
+            builder.ApplyConfiguration(new ExpenditureConfiguration());
+            builder.ApplyConfiguration(new TypeConfiguration());
             base.OnModelCreating(builder);
         }
 
-        public DbSet<Item> Items { get; set; }
+        public DbSet<Income> Incomes { get; set; }
+        public DbSet<Expenditure> Expenditures { get; set; }
     }
 }

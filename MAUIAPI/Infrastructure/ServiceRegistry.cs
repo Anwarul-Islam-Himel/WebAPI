@@ -1,8 +1,8 @@
-﻿using MauiAPI.Implementations;
-using MauiAPI.Interfaces;
-using MauiAPI.Mapping;
+﻿using MauiAPI.Mapping;
 using Microsoft.EntityFrameworkCore;
 using Service.AppDb;
+using Service.Implementations;
+using Service.Interfaces;
 
 namespace MauiAPI.Infrastructure
 {
@@ -16,7 +16,8 @@ namespace MauiAPI.Infrastructure
                 options.UseSqlServer(config.GetConnectionString("Db_Connection"));
             });
 
-            services.AddTransient<IItemService, ItemService>();
+            services.AddTransient<IIncomeService, IncomeService>();
+            services.AddTransient<IExpenditureService, ExpenditureService>();
             services.AddAutoMapper(typeof(MapperProfile));
 
             services.AddCors(option =>

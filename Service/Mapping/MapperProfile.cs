@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Domain.EntityModel;
-using Shared.ViewModel;
+using Service.ViewModel;
 
 namespace MauiAPI.Mapping
 {
@@ -8,8 +8,11 @@ namespace MauiAPI.Mapping
     {
         public MapperProfile()
         {
-            CreateMap<Item, ItemViewModel>();
-            CreateMap<ItemViewModel, Item>();
+            CreateMap<Income, IncomeViewModel>();
+            CreateMap<IncomeViewModel, Income>();
+
+            CreateMap<Expenditure, ExpenditureViewModel>();
+            CreateMap<ExpenditureViewModel, Expenditure>();
         }
     }
 }
