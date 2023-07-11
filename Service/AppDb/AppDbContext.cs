@@ -19,5 +19,6 @@ namespace Service.AppDb
 
         public DbSet<Income> Incomes { get; set; }
         public DbSet<Expenditure> Expenditures { get; set; }
+        public DbSet<IncomeOrExpenditureType> IncomeOrExpenditureTypes { get; set; }
     }
 }

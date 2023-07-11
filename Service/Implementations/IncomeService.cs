@@ -21,7 +21,14 @@ namespace Service.Implementations
         {
             try
             {
-                var income = _mapper.Map<Income>(incomeModel);
+                var income = new Income
+                {
+                    CreatedAt = incomeModel.CreatedAt,
+                    Description = incomeModel.Description,
+                    VoucerNumber = incomeModel.VoucerNumber,
+                    IncomeOrExpenditureTypeId = incomeModel.IncomeTypeId,
+                    Amount = incomeModel.Amount
+                };
                 await _context.Incomes.AddAsync(income);
                 await _context.SaveChangesAsync();
                 return _mapper.Map<IncomeViewModel>(income);

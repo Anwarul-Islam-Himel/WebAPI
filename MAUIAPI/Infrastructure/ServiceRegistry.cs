@@ -18,6 +18,7 @@ namespace MauiAPI.Infrastructure
 
             services.AddTransient<IIncomeService, IncomeService>();
             services.AddTransient<IExpenditureService, ExpenditureService>();
+            services.AddTransient<ITypeSevice, TypeService>();
             services.AddAutoMapper(typeof(MapperProfile));
 
             services.AddCors(option =>
